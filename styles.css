@@ -1,78 +1,38 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    background-color:hsl(212, 45%, 89%);
+    font-family: Outfit;
+} 
+
+.qr-code-image{
+    width: 190px;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
-body {
+
+.div-1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: hsl(212, 45%, 89%);
-}
-.container {
+    max-width: 190px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 12px;
     background-color: white;
-    font-family: "Outfit", sans-serif;
+    position: fixed;
+    inset: 0px;
+    height: fit-content;
+}
+
+.para-1{
+    font-weight: 700;
     text-align: center;
-    padding: 1rem;
-    border-radius: 20px;
-    width: 295px;
-    height: auto;
-    padding-bottom: 2rem;
-    
-}
-
-img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
-}
-
-h2 {
-    background-color: white;
+    margin-bottom: 10px;
     color: hsl(218, 44%, 22%);
-    margin: 1rem 0;
-    font-weight: bold;
-    font-size: 23px;
 }
 
-p {
-    background-color: white;
-    color: hsl(220, 15%, 55%);
-    font-size: 15px;
-}   
-
-
-.attribution {
+.para-2{
+    text-align: center;
+    margin-bottom: 16px;
     font-size: 11px;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
-@media (max-width: 375px) {
-    .container {
-    width: 90%;
-    padding: 1.2rem;
-}
-
-    .container h2 {
-    font-size: 1.2rem;
-}
-
-    .container p {
-    font-size: 0.875rem;
-}
-
-    .attribution {
-    font-size: 0.7rem;
-    padding: 1rem;
-    text-align: center;
-    max-width: 90%;
-}
+    color: hsl(220, 15%, 55%);
 }
